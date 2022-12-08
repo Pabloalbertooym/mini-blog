@@ -1,0 +1,1029 @@
+/* Reglas de CSS para Maquetar una Pagina Basica con Estructura HTML5 y CSS*/
+/*Creado por Ing. Juancito Peña*/
+
+/* 1ERA Regla Marenes 0 a todo el Body y su contenido, iniciamos en cero todo*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #100545;
+}
+
+#ranking {
+  float: left;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  color: black;
+  margin: 0px left;
+  border-radius: 5px;
+  background-color: #fcfcfc;
+  margin-bottom: 10px;
+}
+
+.mlb-logo {
+  background-color: #100545;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mlb-logo img{
+  background-color: #100545;
+  width: 76px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+#noticia {
+  text-align: center;
+}
+
+#informacion{
+  text-align: center;
+  
+}
+
+#Nimg {
+  text-align: center;
+}
+
+.top{
+  height: 250px;
+  width: 400px;
+  float: left;
+  margin-right: 15px;
+} 
+
+#ranking {
+  text-align: left;
+}
+
+.Articulo1 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  text-align: justify;
+  margin-bottom: 50px;
+
+}
+
+h2 {
+  text-align: center;
+}
+
+.web{
+  margin:0 auto;
+  width: 90%;
+  height: 100%;
+}
+
+.leermas{
+font-size: 20px;
+text-align: left;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+nav {
+  font-size: 30px;
+  text-align: center;
+  line-height: 60px;
+  background-color: #fcfcfc;
+  color: rgb(9, 1, 1);
+}
+/*MENU RESPONSIVE*/
+.topnav {
+  overflow: hidden;
+  background-color: #100545;
+}
+
+.topnav a {
+
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(222, 213, 222);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #1e0b7d;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+/* FIN MENU RESPONSIVE*/
+
+#top10 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin-right: 15px;
+  margin:0 auto;
+}
+
+
+
+#contenido {
+  width: 70%;
+  height: 100%;
+  background-color: #fcfcfc;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+#contenido h2 {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(22, 2, 2);
+}
+
+#contenido h3 {
+  font-size: 20px;
+  text-align: left;
+  line-height: 60px;
+  color: rgb(22, 2, 2);
+}
+
+
+.sklill
+{
+  padding-top: 1px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+  color: rgb(22, 2, 2);
+  background-color: #100545;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.mensaje {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center; 
+  color: rgb(22, 2, 2);
+  background-color: rgb(75, 224, 237);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.foto{
+  width: 30%;
+  height: 30%;
+  margin: 0 auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border:5px solid #100545; 
+}
+
+article {
+  width: 95%;
+  color: rgb(17, 1, 1);
+  margin-top: 2px;
+  margin-bottom: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #fcfcfc;
+}
+
+/* FORMATO REDES SOCIASLES ICONOS*/
+.fa {
+
+  padding: 5px;
+  font-size: 10px;
+  width: 24px;
+  height: auto;
+  text-align: center;
+  text-decoration: none;
+  margin: 1px 2px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    background-color: #0f52e3;
+    color: black;
+}
+
+.fa-facebook-square {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter-square {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-github-square {
+  background: #03000e;
+  color: white;
+}
+
+.fa-linkedin-square {
+  background: rgb(27, 91, 181);
+  color: rgb(234, 238, 245);
+}
+
+.fa-youtube-square {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+/* FIN DE LOS ICONOS REDES SOCIALES*/
+
+/*FORMATO PARA EL FORMULARIO DE CONTACTOS*/
+
+.formulario {
+  width: 85%;
+  border-radius: 5px;
+  border: 1px solid #100545;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-weight: bold;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #100545;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #125688;
+  color: white;
+  font-size: 18px;
+}
+
+/*-FIN DEL FORMULARIO DE CONTACTOS--*/
+
+
+
+aside {
+  width: 29%;
+  height: 100%;
+  background-color: #fcfcfc;
+  float: right;
+  margin-top: 5px;
+
+}
+aside img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+/* 9NA Regla */
+
+aside h2 {
+  font-size: 20px;
+  text-align: center;
+  line-height: 100px;
+  color: black;
+}
+
+.video{
+  width: 100%;
+  height: 320px;
+  margin: 0 auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+.button{
+ background-color: #10ed17;
+ border: none;
+ color: black;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 25px;
+ margin: 4px 2px;
+ cursor: pointer;
+ border-radius:50% ;
+ -webkit-border-radius:50% ;
+ -moz-border-radius:50% ;
+ -ms-border-radius:50% ;
+ -o-border-radius:50% ;
+ border:5px solid #dbee06;
+}
+
+/* FORMATO DE LA TABLA */
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+.panel ul {
+  font-size: 14px;
+  padding-top: 12px;
+  list-style: none;
+}
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  list-style: none;
+  border: 2px solid black;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: rgb(85, 189, 246);}
+
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #fcfcfc;
+  color: rgb(20, 4, 189);
+  text-align: center;
+  font-size: 20px;
+  list-style: none;
+  border: 5px solid black;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+
+/* FIN FORMATO DE LA TABLA */
+
+.clearfix {
+  clear: both;
+}
+
+
+/* FORMATO PARA EL FOOTER*/
+
+.footer{
+  background-color: #100545;
+}
+
+.footer__container{
+  padding-bottom: 40px;
+  background-color: #100545;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.footer__social{
+  background-color: #100545;
+  
+}
+
+.footer__copy{
+
+  --padding-container: 30px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.footer__copyright{
+  font-weight: 300;
+  background-color: #100545;
+  color: white;
+}
+
+.footer__icons{
+  margin-bottom: 10px;
+}
+
+.footer__img{
+  width: 30px;
+}
+
+.footer__diseño{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__diseño__black{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #1c1c1e;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* 10MA Regla para el estilo del movil de 300 a 768  */
+
+@media (max-width: 768px) and (min-width: 300px) {
+
+  /* 1ERA Regla Marenes 0 a todo el Body y su contenido, iniciamos en cero todo*/
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* 2DA Regla para el Body */
+
+  body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   background-color: #100545;
+  }
+
+  nav {
+    width: 100%;
+    background-color: #100545
+  }
+#contenido img{
+  margin:0 auto;
+  width: 100%;
+  height: 100%;
+}
+  /* 3ERA Regla para el Contenedor de mi Pagina Web */
+
+  .container {
+    width: 100%;
+    height: 100%;
+    color: black;
+    margin: 0px auto;
+    border-radius: 5px;
+    background-color: #fcfcfc;
+    margin-bottom: 1px;
+  }
+
+ 
+
+
+  header {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    background-color: #100545;;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /*5TA REGLA */
+
+  nav {
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  /* 6TA Regla */
+
+  #contenido {
+    width: 100%;
+    height: 100%;
+    background-color: #fcfcfc;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+  }
+
+  .sklill {
+    padding-top: 1px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    color: rgb(22, 2, 2);
+    background-color: #fcfcfc;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  .Articulo1  {
+    padding-top: 1px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    color: rgb(22, 2, 2);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  aside {
+    width: 100%;
+    height: 100%;
+    background-color: #fcfcfc;
+    float: right;
+    margin-top: 10px;
+
+  }
+
+  aside img {
+    margin:0 auto;
+    width: 90%;
+    height: 100%;
+  }
+
+  aside h5 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  aside p{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .foto{
+    width: 80%;
+    height: 30%;
+    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border:5px solid #100545;
+  }
+  .foto:hover{
+    border:5px solid #0638ee;
+    background-color: #100545;
+    opacity: 0.9;
+  }
+/* FORMATO REDES SOCIASLES ICONOS*/
+/* .redes{ */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* margin: 0 auto; */
+  /* display: block; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* text-align: center; */
+  /* font-size: 10px; */
+  /* line-height: 10px; */
+  /* background-color: #fcfcfc; */
+/* } */
+
+/* .fa { */
+  /* padding: 10px; */
+  /* font-size: 30px; */
+  /* width: 30px; */
+  /* height: auto; */
+  /* text-align: center; */
+  /* text-decoration: none; */
+  /* margin: 5px 2px; */
+  /* border-radius: 50%; */
+/* } */
+
+/* .fa:hover { */
+    /* opacity: 0.7; */
+    /* background-color: #0f52e3; */
+    /* color: black; */
+/* } */
+
+/* .fa-facebook-square { */
+  /* background: #3B5998; */
+  /* color: white; */
+/* } */
+
+/* .fa-twitter-square { */
+  /* background: #55ACEE; */
+  /* color: white; */
+/* } */
+
+/* .fa-github-square { */
+  /* background: #03000e; */
+  /* color: white; */
+/* } */
+
+/* .fa-linkedin-square { */
+  /* background: rgb(27, 91, 181); */
+  /* color: rgb(234, 238, 245); */
+/* } */
+
+/* .fa-youtube-square { */
+  /* background: #bb0000; */
+  /* color: white; */
+/* } */
+
+/* .fa-instagram { */
+  /* background: #125688; */
+  /* color: white; */
+/* } */
+/* FIN DE LOS ICONOS REDES SOCIALES*/
+
+/*FORMATO PARA EL FORMULARIO DE CONTACTOS*/
+
+.formulario {
+  width: 85%;
+  border-radius: 5px;
+  border: 1px solid #100545;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-weight: bold;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #100545;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #125688;
+  color: white;
+  font-size: 18px;
+}
+
+/*-FIN DEL FORMULARIO DE CONTACTOS--*/
+
+
+aside img{
+  margin:0 auto;
+  width: 90%;
+  height: 100%;
+}
+
+aside p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+aside h5 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* 9NA Regla */
+
+aside h2 {
+  font-size: 16px;
+  text-align: center;
+  line-height: 50px;
+  color: black;
+}
+
+.video{
+  width: 100%;
+  height: 320px;
+  margin: 0 auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+
+/* .button{ */
+ /* background-color: #10ed17; */
+ /* border: none; */
+ /* color: black; */
+ /* padding: 15px 32px; */
+ /* text-align: center; */
+ /* text-decoration: none; */
+ /* display: inline-block; */
+ /* font-size: 25px; */
+ /* margin: 4px 2px; */
+ /* cursor: pointer; */
+ /* border-radius:50% ; */
+ /* -webkit-border-radius:50% ; */
+ /* -moz-border-radius:50% ; */
+ /* -ms-border-radius:50% ; */
+ /* -o-border-radius:50% ; */
+ /* border:5px solid #dbee06; */
+/* } */
+
+/* FORMATO DE LA TABLA */
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  font-size:18px;
+}
+.panel ul {
+  font-size: 14px;
+  padding-top: 5px;
+  list-style: none;
+}
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: center;
+  list-style: none;
+  border: 2px solid black;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: rgb(85, 189, 246);}
+
+#customers th {
+  padding-top: 5px;
+  padding-bottom: 12px;
+  background-color: #fcfcfc;
+  color: rgb(20, 4, 189);
+  text-align: center;
+  font-size: 18px;
+  list-style: none;
+  border: 5px solid black;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+
+/* FIN FORMATO DE LA TABLA */
+
+.clearfix {
+  clear: both;
+}
+
+
+/* FORMATO PARA EL FOOTER*/
+
+.footer__container{
+  flex-wrap: wrap;
+}
+
+.nav--footer{
+  width: 100%;
+  justify-items: center;
+}
+
+.nav__link--footer{
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 0;
+}
+
+.footer__form{
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.footer__input{
+  flex: 1;
+}
+}
+/* FIN DEL FOOTER*/
+/* FIN DE LA ESTILO QUERY 300*/
+
+
+/* 10MA Regla para el estilo del movil de 300 a 768  */
+
+@media (max-width: 1024px) and (min-width: 800px) {
+
+  /* 1ERA Regla Marenes 0 a todo el Body y su contenido, iniciamos en cero todo*/
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* 2DA Regla para el Body */
+
+  body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fcfcfc;
+  }
+
+  /* 3ERA Regla para el Contenedor de mi Pagina Web */
+
+  .container {
+    width: 100%;
+    height: 100%;
+    color: black;
+    margin: 0px auto;
+    background-color: #fcfcfc;
+  }
+
+  /*5TA REGLA */
+
+  nav {
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    background-color: #fcfcfc;
+    color: rgb(9, 1, 1);
+  }
+
+  /* 6TA Regla */
+
+  #contenido {
+    width: 100%;
+    height: 100%;
+    background-color: #fcfcfc;
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+
+  aside {
+    width: 100%;
+    height: 100%;
+    background-color: #fcfcfc;
+    float: right;
+  }
+
+  aside img{
+    margin:0 auto;
+  width: 90%;
+  height: 100%;
+    
+  }
+
+  aside p {
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+  }
+
+  aside h5{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+/* FORMATO REDES SOCIASLES ICONOS*/
+/* .redes{ */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* margin: 0 auto; */
+  /* display: block; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* text-align: center; */
+  /* font-size: 10px; */
+  /* line-height: 10px; */
+  /* background-color: #fcfcfc; */
+/* } */
+.footer__container{
+  flex-wrap: wrap;
+}
+
+.nav--footer{
+  width: 100%;
+  justify-items: center;
+}
+
+.nav__link--footer{
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 0;
+}
+
+.footer__form{
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.footer__input{
+  flex: 1;
+}
+}
